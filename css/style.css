@@ -1,0 +1,638 @@
+header {
+  background: #1e5081 url(../img/bg.png) top center no-repeat;
+  min-height: 900px;
+  position: relative;
+  color: #fff;
+  background-size: cover;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding-left: 42px;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 36px;
+}
+
+.logo img {
+  margin-left: 15px;
+}
+
+.logo span {
+  font-size: 30px;
+}
+
+nav .active:last-child {
+  border: 2px solid #fff;
+  padding: 7px;
+  margin-left: 42px;
+}
+
+.header-entry {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.header-entry h3 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.header-entry p {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.header-entry span {
+  display: block;
+  margin-top: 10px;
+}
+
+.header-entry img {
+  margin-top: 80px;
+}
+
+#company {
+  background: #fafaff;
+}
+
+#company .col-xs-1-5,
+#company .col-sm-1-5,
+#company .col-md-1-5,
+#company .col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#company .col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+
+#company .carousel {
+  margin-bottom: 0;
+}
+
+#company .carousel .carousel-inner {
+  margin: 50px 0px;
+}
+
+#company .carousel .carousel-inner .item img {
+  
+  z-index: 1;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#company .carousel .carousel-inner .item img:hover {
+  opacity: 1;
+}
+
+#company .carousel .carousel-control.right {
+  position: absolute;
+  left: 1200px;
+  width: 15px;
+  height: 25px;
+  background: url(../img/right.png) 0 0 no-repeat;
+}
+
+#company .carousel .carousel-control.left {
+  left: -100px;
+  width: 15px;
+  height: 25px;
+  background: url(../img/left.png) 0 0 no-repeat;
+}
+
+.spincrement {
+  color: #1e5081;
+  font-size: 100px;
+}
+
+#counter span {
+  color: #e1e1e1;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#counter {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section-title :before,
+.section-title :after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 10%;
+  top: 6px;
+  border-bottom: 1px solid #8c8c8c;
+  opacity: .3;
+}
+
+.section-title :before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.section-title :after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+#started {
+  background: #fff url(../img/macbook2.png) right center no-repeat;
+  background-size: contain;
+  color: #5b5b5b;
+  margin-bottom: 80px;
+}
+
+#started .sign:before,
+#started .download:before,
+#started .connection:before {
+  position: absolute;
+  left: 25px;
+  padding-top: 9px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  background: #225586;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#started .sign:before {
+  content: "1";
+}
+
+#started .download:before {
+  content: "2";
+  background: #b3b3b3;
+}
+
+#started .connection:before {
+  content: "3";
+  background: #b3b3b3;
+}
+
+#started ul li {
+  list-style: none;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+#started h3 {
+  font-size: 20px;
+}
+
+#started .active_sign {
+  color: #1e5182;
+}
+
+#started p {
+  font-size: 16px;
+  color: #c8c6c6;
+}
+
+.item_second {
+  background: #225586;
+  font-size: 30px;
+  line-height: 1.8;
+  margin-bottom: 70px;
+  padding: 20px 0 20px 0;
+}
+
+.item_second p {
+  color: #ffb901;
+}
+
+.item_second span {
+  color: #fff;
+}
+
+.btn-default {
+  text-transform: uppercase;
+  background: none;
+  color: #fff;
+}
+
+.btn-default:hover {
+  color: #ffb901;
+  background: none;
+  border-color: #ffb901;
+}
+
+#myCarousel {
+  text-align: center;
+  background: #fff;
+  margin-bottom: 70px;
+}
+
+#myCarousel img {
+  display: block;
+  margin: auto;
+  padding: 40px 0 40px 0;
+}
+
+.carousel-inner p {
+  font-size: 20px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.carousel-inner span {
+  font-size: 15px;
+}
+
+.carousel-indicators li {
+  background: #c3c3c3;
+}
+
+.carousel-indicators {
+  margin-bottom: -70px;
+}
+
+.carousel-indicators .active {
+  background: #225586;
+ 
+}
+
+.job {
+  color: #c3c3c3;
+}
+
+.content_item {
+  background: #fafaff url(../img/Flat-MacBook1.png) left center no-repeat;
+  min-height: 500px;
+}
+
+.form-control {
+  border-radius: 2px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.btn-default1 {
+  border-radius: 2px;
+  background: none;
+  margin-left: -5px;
+  border: 1px solid #c3c3c3;
+  margin-bottom: 20px;
+}
+
+.content_item h3 {
+  color: #5b5b5b;
+}
+
+.content_item .row {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.market {
+ margin-top: 20px;
+}
+
+.content_item p {
+  color: #c3c3c3;
+}
+
+.content_item span {
+  color: #c3c3c3;
+}
+
+footer ul a {
+  list-style: none;
+}
+
+footer ul li {
+  margin-left: -40px;
+  font-size: 15px;
+  color: #c3c3c3;
+}
+
+footer ul a:hover {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+.copyrights {
+  color: #c3c3c3;
+  margin: 60px 0 60px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer h3 {
+  color: #5b5b5b;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  #company .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #company .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  #company .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+    min-height: 800px;
+  }
+
+  header .logo {
+    font-size: 24px;
+  }
+
+  header .logo img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  header .header-entry {
+    margin-top: 20px;
+  }
+
+  header .header-entry h1 {
+    font-size: 28px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+
+  header .header-entry p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  header .header-entry img {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+
+  header .xs-navigaton {
+    margin-top: 50px;
+    color: #ccc;
+  }
+
+  header .xs-navigaton :active,
+  header .xs-navigaton :visited,
+  header .xs-navigaton :focus {
+    color: #000;
+  }
+
+  header .xs-navigaton :hover {
+    color: #fff;
+  }
+
+  header .xs-navigaton button {
+    background: transparent;
+  }
+
+
+  header .xs-navigaton .dropdown-menu {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; 
+  }
+
+  header .xs-navigaton .dropdown-menu li a {
+    padding: 10px;
+    font-family: poppinslight;
+    text-align: center;
+  }
+
+  #company {
+    display: none;
+  }
+
+  #counter .count-box {
+    margin-bottom: 50px;
+  }
+
+  #counter .count-box p {
+    font-size: 50px;
+  }
+
+  #counter .count-box span {
+    font-size: 14px;
+  }
+
+  #started {
+    padding-bottom: 100px;
+    overflow: hidden;
+    background: none;
+  }
+  
+  .item_second {
+    text-align: center;
+  }
+
+  .item_second img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .item_second p {
+    font-size: 20px;
+  }
+
+  .item_second a {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .content_item {
+    background: #fafaff;
+  }
+
+  footer .col-sm-3 {
+    text-align: center;
+  }
+
+  footer h3 {
+    font-size: 24px;
+  }
+
+  footer ul li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    text-align: center;
+  }
+
+  header .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  header .nav {
+    display: block;
+    margin-top: 20px;
+  }
+
+  #company {
+    overflow: hidden;
+  }
+
+  #company img {
+    width: 100px;
+  }
+
+  #company .col-xs-1-5,
+  #company .col-sm-1-5,
+  #company .col-md-1-5,
+  #company .col-lg-1-5 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  #company .carousel .carousel-control.right {
+    left: 930px;
+  }
+
+  #company .carousel .carousel-control.left {
+    left: -5px;
+  }
+
+  #started {
+    background: #fff url(../img/macbook2.png) right -250px center no-repeat;
+    background-size: 700px;
+  }
+
+  .content_item {
+    background: #fafaff url(../img/FlatMacBook1.png) left -100px center no-repeat;
+    background-size: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    text-align: center;
+  }
+
+  header .header-entry {
+    margin-top: 50px;
+  }
+
+  header .header-entry h1 {
+    font-size: 36px;
+  }
+
+  header .header-entry p {
+    font-size: 18px;
+  }
+
+  header .header-entry img {
+    width: 640px;
+  }
+
+  header .nav {
+    display: block;
+    margin-top: 20px;
+  }
+
+  header .nav ul {
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  header .nav ul li a {
+    padding: 10px 15px;
+  }
+
+  #company {
+    overflow: hidden;
+  }
+
+  #company img {
+    width: 80px;
+  }
+
+  #company .col-xs-1-5,
+  #company .col-sm-1-5,
+  #company .col-md-1-5,
+  #company .col-lg-1-5 {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 18%;
+  }
+
+  #company .carousel .carousel-control.right {
+    left: 700px;
+  }
+
+  #company .carousel .carousel-control.left {
+    left: -5px;
+  }
+
+  #counter .count-box {
+    margin-bottom: 50px;
+  }
+
+  #started {
+    background: #fff url(../img/macbook2.png) right -150px center no-repeat;
+    background-size: 500px;
+  }
+
+  .content_item {
+    background: #fafaff url(../img/FlatMacBook1.png) left -150px center no-repeat;
+    background-size: 400px;
+  }
+  .item_second {
+    text-align: center;
+  }
+}
